@@ -1,0 +1,23 @@
++# 此为注释 – 将被 Git 忽略
+
+/**/.classpath
+/**/.svn
++# 忽略所有的.classpath等不必要的文件
+
+
+/**/.project
+
+/**/.settings
+
+/**/target
+
+/**/webapp
+
+/.idea
+
+classes/
+
+/**/*.iml
+
+/**/tree.log
+
