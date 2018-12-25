@@ -32,3 +32,6 @@ str='abc'
 quest='what is favor color'
 ##在长度40的范围内，让quest居中
 print(quest.center(40,'-'))
+str1='bc'
+index = str.find(str1)
+print(index)
