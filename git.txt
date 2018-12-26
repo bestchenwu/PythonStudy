@@ -1,0 +1,11 @@
+想使用免密方式提交的话，需要切换git的clone方式由http转为ssh
+
+1、进入项目目录，输入git remote -v
+sweet@sweet:/data/StudySpace/PythonStudy$ git remote -v
+origin	https://github.com/bestchenwu/PythonStudy.git (fetch)
+origin	https://github.com/bestchenwu/PythonStudy.git (push)
+
+2、如果显示为https，则表示是https的拉取方式
+   需要设置成ssh
+   命令是:
+   git remote set-url origin git@github.com:bestchenwu/PythonStudy.git
