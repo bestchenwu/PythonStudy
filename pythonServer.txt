@@ -1,3 +1,14 @@
 #打开python doc 的方式是输入命令
 python3 -m pydoc -p 4567
 然后在网页里输入http://localhost:4567
+
+
+安装python包的方式是:
+下载对应的whl文件，然后使用pip3 install xx.whl
+查看是否完成的方式是
+分别输入pip3 list
+和输入pip3 show numpy
+然后在命令行里使用import numpy as xxx的方式 测试是否导入成功
+
+在idea里要改变python sdk，不能使用系统默认的虚拟环境(venv)，要使用/usr/bin/python3
+
