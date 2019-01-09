@@ -26,20 +26,22 @@ import numpy as np
 #array1 =
 # [1,2
 #  3,4]
-array1 = np.array([[1, 2], [3, 4]])
-# array2=
-# [5,6
-#   7,8]
-array2 = np.array([[5, 6], [7, 8]])
-# print sum
-print(array1+array2)
-print(array1-array2)
-print(array1/array2)
-# 需要注意矩阵直接用乘法代表元素逐项相乘
-# [[1*5] [2*6]
-#  [3*7] [4*8]]
-print(array1*array2)
-# 矩阵乘法运算的方式是用dot,公式为:
-# [[ 1*5+2*7,1*6+2*8]
-#  [5*3+4*7],3*6+4*8 ]
-print(array1.dot(array2))
+# array1 = np.array([[1, 2], [3, 4]])
+# # array2=
+# # [5,6
+# #   7,8]
+# array2 = np.array([[5, 6], [7, 8]])
+# # print sum
+# print(array1+array2)
+# print(array1-array2)
+# print(array1/array2)
+# # 需要注意矩阵直接用乘法代表元素逐项相乘
+# # [[1*5] [2*6]
+# #  [3*7] [4*8]]
+# print(array1*array2)
+# # 矩阵乘法运算的方式是用dot,公式为:
+# # [[ 1*5+2*7,1*6+2*8]
+# #  [5*3+4*7],3*6+4*8 ]
+# print(array1.dot(array2))
+
+d=np.linspace(0,2*np.pi,5)
