@@ -12,3 +12,6 @@ python3 -m pydoc -p 4567
 
 在idea里要改变python sdk，不能使用系统默认的虚拟环境(venv)，要使用/usr/bin/python3
 
+##  在线安装包的方式是
+python -m pip install matplotlib
+
