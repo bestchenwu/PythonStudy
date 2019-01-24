@@ -223,9 +223,15 @@ iris_2d = np.genfromtxt(url, delimiter=',', dtype='object')
 # 代表第一到第五列
 names = ('sepallength', 'sepalwidth', 'petallength', 'petalwidth', 'species')
 # 在iris_2d中为卷创建一个新列，其中volume是（pi x petallength x sepal_length ^ 2）/ 3
-sepallength = iris_2d[:,0].astype(float)
-petallength =iris_2d[:,2].astype(float)
-new_volumn = (np.pi*petallength * (sepallength**2) /3)
-new_volumn = new_volumn[:,np.newaxis] # 将一维矩阵转换为二维矩阵
-print(np.hstack((iris_2d,new_volumn))[:4])
+# sepallength = iris_2d[:,0].astype(float)
+# petallength =iris_2d[:,2].astype(float)
+# new_volumn = (np.pi*petallength * (sepallength**2) /3)
+# new_volumn = new_volumn[:,np.newaxis] # 将一维矩阵转换为二维矩阵
+# print(np.hstack((iris_2d,new_volumn))[:4])
 # 第42节练习
+
+np.random.seed(100)
+a = np.random.randint(1,10, [5,3])
+print(a)
+b= np.apply_along_axis(np.min,arr=a,axis = 1)
+print(b)
