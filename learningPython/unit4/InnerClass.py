@@ -22,3 +22,7 @@ def displayNumType(num):
 
 x = "abc"
 displayNumType(x)
+
+y = "cde"
+print(type(x) == type(y))
+print(type(x) is type(y))
